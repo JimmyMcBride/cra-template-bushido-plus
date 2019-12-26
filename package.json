@@ -5,7 +5,7 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JimmyMcBride/cra-template-bushido.git"
+    "url": "git+https://github.com/JimmyMcBride/cra-template-bushido-plus.git"
   },
   "keywords": [
     "redux",
@@ -16,9 +16,9 @@
   "author": "Jimmy McBride",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JimmyMcBride/cra-template-bushido/issues"
+    "url": "https://github.com/JimmyMcBride/cra-template-bushido-plus/issues"
   },
-  "homepage": "https://github.com/JimmyMcBride/cra-template-bushido#readme",
+  "homepage": "https://github.com/JimmyMcBride/cra-template-bushido-plus#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
