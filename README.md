@@ -1,4 +1,8 @@
-# Welcome to Jimmy's Custom Template!
+# Welcome to Jimmy's Custom Template, Bushido Plus!
+
+## What makes it extra?
+
+Bushido plus template comes with a placeholder private route / auth configuration.
 
 Just like regular create-react-app but so much more. This template includes:
 
@@ -23,7 +27,7 @@ Reducer and action folders are inside a store folder so they are in the same spo
 ```
 | src |
 | --- | components
-| --- | *store* 
+| --- | *store*
 | --- | --- | actions*
 | --- | --- | reducers*
 | App.js
