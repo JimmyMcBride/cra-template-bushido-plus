@@ -16,7 +16,7 @@ export default function Dashboard() {
     <Wrapper>
       <h1>Hello, world!</h1>
       <Button onClick={handleSignOut}>Sign Out</Button>
-      <FlexBox height="90%" align="center">
+      <FlexBox height="90vh" align="center">
         <Linkton to="/counter">Redux Counter</Linkton>
       </FlexBox>
     </Wrapper>
