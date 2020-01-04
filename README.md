@@ -1,5 +1,25 @@
 # Welcome to Jimmy's Custom Template, Bushido Plus!
 
+## How To Install
+
+### yarn
+
+`yarn create react-app <app-name> --template bushido-lite`
+
+### npm
+
+`npm init react-app <app-name> --template bushido-lite`
+
+### npx
+
+`npx create-react-app <app-name> --template bushido-lite`
+
+### global
+
+> If create-react-app is installed globally on your computer you can use this command:
+
+`create-react -app <app-name> --template bushido-lite`
+
 ## What makes it extra?
 
 Bushido plus template comes with a placeholder private route / auth configuration.
@@ -27,8 +47,8 @@ Reducer and action folders are inside a store folder so they are in the same spo
 ```
 | src |
 | --- | components
-| --- | *store*
-| --- | --- | actions*
+| --- | *store* |
+| --- | ------- |actions*
 | --- | --- | reducers*
 | App.js
 | index.js
