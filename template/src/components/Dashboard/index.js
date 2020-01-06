@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { Wrapper, Linkton, FlexBox, Button } from 'bushido-strap';
+import { Wrapper, Linkton, FlexBox, Button } from "bushido-strap";
 
-import { useDispatch } from 'react-redux';
+import { useDispatch } from "react-redux";
 
-import { signOut } from '../../store/actions/auth';
+import { signOut } from "../../store/actions/auth";
 
 export default function Dashboard() {
   const dispatch = useDispatch();
