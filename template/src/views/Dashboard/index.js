@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Wrapper, Linkton, FlexBox, Button } from "bushido-strap";
+import { Wrapper, Linkton, Button, Row, Box, Col } from "bushido-strap";
 
 import { useDispatch } from "react-redux";
 
@@ -14,11 +14,16 @@ export default function Dashboard() {
   }
   return (
     <Wrapper>
-      <h1>Hello, world!</h1>
-      <Button onClick={handleSignOut}>Sign Out</Button>
-      <FlexBox height="90vh" align="center">
+      <Row jc_between stretch ai_center>
+        <Box w="112.84px" />
+        <h1>Hello, world!</h1>
+        <Button h="100%" onClick={handleSignOut}>
+          Sign Out
+        </Button>
+      </Row>
+      <Row>
         <Linkton to="/counter">Redux Counter</Linkton>
-      </FlexBox>
+      </Row>
     </Wrapper>
   );
 }
