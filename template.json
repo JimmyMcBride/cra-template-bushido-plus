@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "bushido-strap": "^2.1.8",
+    "bushido-strap": "^2.2.3",
     "react-redux": "^7.1.3",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
